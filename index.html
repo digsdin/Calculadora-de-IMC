@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Calculadora de IMC - Digs</title>
+</head>
+<body>
+    <section>
+       <h1>Calculadora de IMC - Digs</h1>
+       <p>Calcule seu IMC digitando seu peso e altura de forma simples e rápida.</p>
+
+        <label for="peso">Peso:</label>
+        <input type="number" id="peso" name="peso" placeholder="Digite seu peso (kg)" required>
+
+        <label for="altura">Altura</label>
+        <input type="number" id="altura" name="altura" placeholder="Digite sua altura (m)" required>
+
+        
+        <button type="button" onclick="calcularImc()">Calcular IMC</button>
+        <p id="resultado"></p>
+    </section>
+    <footer>
+        <p>Desenvolvido por DigsWare</p>
+        <p>© 2023 DigsWare. Todos os direitos reservados.</p>
+    </footer>
+    
+</body>
+</html>
